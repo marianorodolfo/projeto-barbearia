@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+margin: 0px;
+padding: 0px;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#burger {
+display: block;
+color:red;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+}
+
+menu {
+padding: 10px;
+text-align: center;
+display: none;
+}
+
+menu > ul > li {
+display: contents;
+}
+
+menu > ul > li > a {
+display: block;
+text-decoration: none;
+text-align: center;
+color: white;
+font-weight: bold;
+margin-right: 15px;
+}
+
+
+menu > ul {
+list-style-type: none;
+}
+
+menu > ul > li > a:hover {
+color: red;
+transition: 0.8s;
+}
+
