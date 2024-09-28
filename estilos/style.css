@@ -3,8 +3,48 @@
 * {
 margin: 0px;
 padding: 0px;
-background-color: black;
 font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+background-color: rgb(197, 84, 84);
+height: 100vh;
+width: 100vw;
+}
+
+main {
+background: url(../imagens/shaving-6560988_1280.jpg) no-repeat;
+background-position:center top;
+width: 260px;
+height: 550px;
+border-radius: 20px;
+border: 2px solid black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#itens{
+background-color: #b90c0c72;
+display: block;
+width: 91%;
+height: 230px;
+border-radius: 10px;
+margin: 10px 0px;
+margin-left: 1px;
+}
+
+#menus > a{
+background-color: #b90c0ca8;
+font-size: 0.9em;
+margin: 3px;
+width: 98%;
+height: 28px;
+border: 1.2px solid black;
+text-align: center;
+flex: auto;
+border-radius: 8px;
 }
 
 #burger {
@@ -13,6 +53,10 @@ color:red;
 text-align: center;
 padding: 10px;
 cursor: pointer;
+}
+
+#burger:hover {
+color: white;
 }
 
 menu {
@@ -40,7 +84,7 @@ list-style-type: none;
 }
 
 menu > ul > li > a:hover {
-color: red;
-transition: 0.8s;
+color: black;
+transition: 0.6s;
 }
 
